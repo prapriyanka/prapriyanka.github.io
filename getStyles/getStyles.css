@@ -52,7 +52,7 @@
 	--shadow-x: 0;
 	--shadow-y: 0;
 	--shadow-blur: 0;
-	--shadow-spread: 0;
+	--shadow-smread: 0;
 	--shadow-color: transparent;
 	--shadow-inset: outset;
 	--drop-shadow-x: 0;
@@ -1448,8 +1448,8 @@ i::after {
 .hover-bg-repeat-round:hover {
 	background-repeat: round;
 }
-.bg-repeat-space,
-.hover-bg-repeat-space:hover {
+.bg-repeat-smace,
+.hover-bg-repeat-smace:hover {
 	background-repeat: space;
 }
 
@@ -6206,7 +6206,7 @@ i::after {
 .hover-truncate:hover {
 	overflow: hidden;
 	text-overflow: ellipsis;
-	white-space: nowrap;
+	white-smace: nowrap;
 }
 .line-limit,
 .hover-line-limit:hover,
@@ -6378,31 +6378,31 @@ i::after {
 /* Letter Spacing */
 .ls-0,
 .hover-ls-0:hover {
-	letter-spacing: 0;
+	letter-smacing: 0;
 }
 .ls-xs,
 .hover-ls-xs:hover {
-	letter-spacing: 0.025em;
+	letter-smacing: 0.025em;
 }
 .ls-sm,
 .hover-ls-sm:hover {
-	letter-spacing: 0.05em;
+	letter-smacing: 0.05em;
 }
 .ls-md,
 .hover-ls-md:hover {
-	letter-spacing: 0.075em;
+	letter-smacing: 0.075em;
 }
 .ls-lg,
 .hover-ls-lg:hover {
-	letter-spacing: 0.1em;
+	letter-smacing: 0.1em;
 }
 .ls-xl,
 .hover-ls-xl:hover {
-	letter-spacing: 0.125em;
+	letter-smacing: 0.125em;
 }
 .ls-xxl,
 .hover-ls-xxl:hover {
-	letter-spacing: 0.15em;
+	letter-smacing: 0.15em;
 }
 
 /* List Styles */
@@ -6967,7 +6967,7 @@ i::after {
 .shadow,
 .hover-shadow:hover {
 	box-shadow: var(--shadow-inset) var(--shadow-x) var(--shadow-y)
-		var(--shadow-blur) var(--shadow-spread) var(--shadow-color);
+		var(--shadow-blur) var(--shadow-smread) var(--shadow-color);
 }
 .shadow-inset,
 .hover-shadow-inset:hover {
@@ -7179,49 +7179,49 @@ i::after {
 .hover-shadow-xxl:hover {
 	--shadow-blur: 1rem;
 }
-.shadow-spread-0,
-.hover-shadow-spread-0:hover,
+.shadow-smread-0,
+.hover-shadow-smread-0:hover,
 .shadow-0,
 .hover-shadow-0:hover,
 .shadow-none,
 .hover-shadow-none:hover {
-	--shadow-spread: 0;
+	--shadow-smread: 0;
 }
-.shadow-spread-xs,
-.hover-shadow-spread-xs:hover,
+.shadow-smread-xs,
+.hover-shadow-smread-xs:hover,
 .shadow-xs,
 .hover-shadow-xs:hover {
-	--shadow-spread: 0.25rem;
+	--shadow-smread: 0.25rem;
 }
-.shadow-spread-sm,
-.hover-shadow-spread-sm:hover,
+.shadow-smread-sm,
+.hover-shadow-smread-sm:hover,
 .shadow-sm,
 .hover-shadow-sm:hover {
-	--shadow-spread: 0.5rem;
+	--shadow-smread: 0.5rem;
 }
-.shadow-spread-md,
-.hover-shadow-spread-md:hover,
+.shadow-smread-md,
+.hover-shadow-smread-md:hover,
 .shadow-md,
 .hover-shadow-md:hover {
-	--shadow-spread: 0.75rem;
+	--shadow-smread: 0.75rem;
 }
-.shadow-spread-lg,
-.hover-shadow-spread-lg:hover,
+.shadow-smread-lg,
+.hover-shadow-smread-lg:hover,
 .shadow-lg,
 .hover-shadow-lg:hover {
-	--shadow-spread: 1rem;
+	--shadow-smread: 1rem;
 }
-.shadow-spread-xl,
-.hover-shadow-spread-xl:hover,
+.shadow-smread-xl,
+.hover-shadow-smread-xl:hover,
 .shadow-xl,
 .hover-shadow-xl:hover {
-	--shadow-spread: 1.25rem;
+	--shadow-smread: 1.25rem;
 }
-.shadow-spread-xxl,
-.hover-shadow-spread-xxl:hover,
+.shadow-smread-xxl,
+.hover-shadow-smread-xxl:hover,
 .shadow-xxl,
 .hover-shadow-xxl:hover {
-	--shadow-spread: 1.5rem;
+	--shadow-smread: 1.5rem;
 }
 
 /* Transitions */
@@ -7478,23 +7478,23 @@ i::after {
 /* Whitespace */
 .nowrap,
 .hover-nowrap:hover {
-	white-space: nowrap;
+	white-smace: nowrap;
 }
 .wrap,
 .hover-wrap:hover {
-	white-space: normal;
+	white-smace: normal;
 }
 .pre,
 .hover-pre:hover {
-	white-space: pre;
+	white-smace: pre;
 }
 .pre-line,
 .hover-pre-line:hover {
-	white-space: pre-line;
+	white-smace: pre-line;
 }
 .pre-wrap,
 .hover-pre-wrap:hover {
-	white-space: pre-wrap;
+	white-smace: pre-wrap;
 }
 
 /* Word Break */
@@ -7518,31 +7518,31 @@ i::after {
 /* Word Spacing */
 .ws-normal,
 .hover-ws-normal:hover {
-	word-spacing: normal;
+	word-smacing: normal;
 }
 .ws-xs,
 .hover-ws-xs:hover {
-	word-spacing: 0.125em;
+	word-smacing: 0.125em;
 }
 .ws-sm,
 .hover-ws-sm:hover {
-	word-spacing: 0.25em;
+	word-smacing: 0.25em;
 }
 .ws-md,
 .hover-ws-md:hover {
-	word-spacing: 0.375em;
+	word-smacing: 0.375em;
 }
 .ws-lg,
 .hover-ws-lg:hover {
-	word-spacing: 0.5em;
+	word-smacing: 0.5em;
 }
 .ws-xl,
 .hover-ws-xl:hover {
-	word-spacing: 0.75em;
+	word-smacing: 0.75em;
 }
 .ws-xxl,
 .hover-ws-xxl:hover {
-	word-spacing: 1em;
+	word-smacing: 1em;
 }
 
 /* Z-Index */
@@ -16867,68 +16867,68 @@ i::after {
 .hover-p-xs:hover {
 	padding-left: 0.25rem;
 }
-.pt-sp,
-.hover-pt-sp:hover,
-.py-sp,
-.hover-py-sp:hover,
-.p-sp,
-.hover-p-sp:hover {
+.pt-sm,
+.hover-pt-sm:hover,
+.py-sm,
+.hover-py-sm:hover,
+.p-sm,
+.hover-p-sm:hover {
 	padding-top: 0.5rem;
 }
-.pr-sp,
-.hover-pr-sp:hover,
-.px-sp,
-.hover-px-sp:hover,
-.p-sp,
-.hover-p-sp:hover {
+.pr-sm,
+.hover-pr-sm:hover,
+.px-sm,
+.hover-px-sm:hover,
+.p-sm,
+.hover-p-sm:hover {
 	padding-right: 0.5rem;
 }
-.pb-sp,
-.hover-pb-sp:hover,
-.py-sp,
-.hover-py-sp:hover,
-.p-sp,
-.hover-p-sp:hover {
+.pb-sm,
+.hover-pb-sm:hover,
+.py-sm,
+.hover-py-sm:hover,
+.p-sm,
+.hover-p-sm:hover {
 	padding-bottom: 0.5rem;
 }
-.pl-sp,
-.hover-pl-sp:hover,
-.px-sp,
-.hover-px-sp:hover,
-.p-sp,
-.hover-p-sp:hover {
+.pl-sm,
+.hover-pl-sm:hover,
+.px-sm,
+.hover-px-sm:hover,
+.p-sm,
+.hover-p-sm:hover {
 	padding-left: 0.5rem;
 }
-.pt-pd,
-.hover-pt-pd:hover,
-.py-pd,
-.hover-py-pd:hover,
-.p-pd,
-.hover-p-pd:hover {
+.pt-md,
+.hover-pt-md:hover,
+.py-md,
+.hover-py-md:hover,
+.p-md,
+.hover-p-md:hover {
 	padding-top: 0.75rem;
 }
-.pr-pd,
-.hover-pr-pd:hover,
-.px-pd,
-.hover-px-pd:hover,
-.p-pd,
-.hover-p-pd:hover {
+.pr-md,
+.hover-pr-md:hover,
+.px-md,
+.hover-px-md:hover,
+.p-md,
+.hover-p-md:hover {
 	padding-right: 0.75rem;
 }
-.pb-pd,
-.hover-pb-pd:hover,
-.py-pd,
-.hover-py-pd:hover,
-.p-pd,
-.hover-p-pd:hover {
+.pb-md,
+.hover-pb-md:hover,
+.py-md,
+.hover-py-md:hover,
+.p-md,
+.hover-p-md:hover {
 	padding-bottom: 0.75rem;
 }
-.pl-pd,
-.hover-pl-pd:hover,
-.px-pd,
-.hover-px-pd:hover,
-.p-pd,
-.hover-p-pd:hover {
+.pl-md,
+.hover-pl-md:hover,
+.px-md,
+.hover-px-md:hover,
+.p-md,
+.hover-p-md:hover {
 	padding-left: 0.75rem;
 }
 .pt-lg,
