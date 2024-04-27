@@ -1,0 +1,364 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	font-family: "Outfit", sans-serif;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+:root {
+	--clr-primary: #015b64;
+}
+
+a, a:visited, a:active {
+	color: inherit;
+}
+
+body {
+	position: relative;
+}
+
+header {
+	align-items: center;
+	background: transparent;
+	/* background-color: #f1f1f1; */
+	display: flex;
+	height: 5rem;
+	justify-content: space-between;
+	padding: 1rem;
+	position: fixed;
+	top: 0;
+	transition: all 0.3s ease-in-out;
+	width: 100%;
+	z-index: 999;
+}
+
+header a {
+	color: #000;
+	font-family: "Outfit", sans-serif;
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+#headerBtn {
+	align-items: center;
+	/* background: yellowgreen; */
+	display: flex;
+	gap: 0.5rem;
+	justify-content: center;
+}
+
+#headerBtn a {
+	align-items: center;
+	aspect-ratio: 1;
+	background: #fff;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	width: 3rem;
+}
+
+.material-symbols-sharp {
+	font-size: 1.5rem !important;
+	font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+nav {
+	background: #000;
+	display: none;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+	padding: 1rem;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 998;
+}
+
+#navLinks {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	background: url(/img/bgGradient.webp) no-repeat center center/cover;
+	background-clip: text;
+}
+
+#navLinks a {
+	color: #fff;
+	font-size: 2.5rem;
+	font-weight: 900;
+	line-height: 1;
+}
+
+#navLinks a:hover {
+	color: transparent;
+}
+
+#navLinks a.active {
+	color: var(--clr-primary);
+}
+
+#bar {
+	background: #fffc;
+	height: 1px;
+	margin: 1rem 0;
+	width: 100%;
+}
+
+nav #social{
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+nav #social a {
+	color: var(--clr-primary);
+	font-size: 1.5rem;
+}
+
+
+
+#hero {
+	height: 100vh;
+	position: relative;
+	width: 100%;
+}
+
+#hero #bg {
+	align-items: center;
+	background: url(/img/bgGradient.webp) no-repeat center center/cover;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: center;
+	padding: 1rem;
+	width: 100%;
+}
+
+#bg h1 {
+	font-size: 3rem;
+	line-height: 1;
+	text-align: center;
+}
+
+span.underLine {
+	position: relative;
+	/* color: var(--clr-primary); */
+}
+
+span.underLine::after {
+	border-bottom: 1rem solid var(--clr-primary);
+	content: "";
+	height: 100%;
+	left: 0;
+	opacity: 0.5;
+	position: absolute;
+	top: -15%;
+	width: 100%;
+	z-index: 10;
+}
+
+#bg p {
+	font-size: 1.25rem;
+	font-weight: 500;
+	text-align: center;
+	padding: 1rem 0;
+}
+
+#bg #contactBtn {
+	background: #fff;
+	border-radius: 3rem;
+	color: var(--clr-primary);
+	font-size: 1.5rem;
+	font-weight: 500;
+	padding: 0.75rem 1.5rem;
+}
+
+#social a:hover {
+	color: #fff;
+}
+
+#about {
+	background: #fff;
+	padding: 2rem 1rem;
+}
+
+#about h2 {
+	font-size: 2.5rem;
+	font-weight: 700;
+	line-height: 1;
+	padding-bottom: 1rem;
+}
+
+#about h3 {
+	color: var(--clr-primary);
+	font-size: 1.5rem;
+	font-weight: 500;
+	line-height: 1;
+	padding-bottom: 0.25rem;
+}
+
+#about p {
+	font-size: 1rem;
+	font-weight: 300;
+	line-height: 1.5;
+	padding-bottom: 0.5rem;
+}
+
+#about a {
+	background: var(--clr-primary);
+	border-radius: 3rem;
+	color: #fff;
+	display: inline-block;
+	font-size: 1rem;
+	font-weight: 500;
+	padding: 0.75rem 1.5rem;
+	margin-bottom: 0.5rem;
+}
+
+img#wordArt {
+	overflow: hidden;
+	padding: 2rem 0;
+	scale: 1;
+	width: 100%;
+}
+
+#services {
+	padding: 2rem 0;
+}
+
+#faq {
+	background: var(--clr-primary);
+	padding: 2rem 1rem;
+}
+
+#faq h2 {
+	color: #fff;
+	font-size: 2.5rem;
+	font-weight: 700;
+	line-height: 1;
+}
+
+#faq details {
+	background: #0003;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 300;
+	line-height: 1.25;
+	margin-bottom: 0.75rem;
+	border-radius: 0.5rem;
+	padding: 1rem;
+}
+
+#faq summary {
+	font-size: 1.2rem;
+	font-weight: 500;
+	line-height: 1.4;
+}
+
+#faq details[open] {
+	background: #0003;
+	border-radius: 0.5rem;
+	margin-bottom: 1rem;
+	padding: 1rem;
+}
+
+#faq p {
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 300;
+	line-height: 1.5;
+	padding-bottom: 0.5rem;
+}
+
+#contact {
+	/* background: #000; */
+	/* color: #fff; */
+	padding: 2rem 1rem;
+}
+
+#contact h2 {
+	font-size: 2.5rem;
+	font-weight: 700;
+	line-height: 1;
+}
+
+#contact h3 {
+	color: var(--clr-primary);
+	font-size: 1.5rem;
+	font-weight: 500;
+	line-height: 1;
+	padding: 1rem 0 0.5rem;
+}
+
+#contact p {
+	font-size: 1rem;
+	font-weight: 300;
+	line-height: 1.5;
+	padding-bottom: 0.5rem;
+}
+
+#contact form {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+#contact form input,
+#contact form textarea {
+	background: #f1f1f1f1;
+	border: none;
+	border-radius: 0.5rem;
+	color: #000;
+	font-size: 1rem;
+	font-weight: 300;
+	line-height: 1.5;
+	padding: 0.5rem;
+}
+
+#contact form input::placeholder,
+#contact form textarea::placeholder {
+	color: #000;
+	font-weight: 300;
+}
+
+#contact form button {
+	background: var(--clr-primary);
+	border: none;
+	border-radius: 0.25rem;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 500;
+	line-height: 1.5;
+	padding: 0.5rem;
+}
+
+#contact form button:hover {
+	background: #015b64;
+}
+
+footer {
+	background: var(--clr-primary);
+	color: #fff;
+	padding: 1rem;
+	text-align: center;
+}
+
+footer p {
+	font-size: 1rem;
+	font-weight: 300;
+	line-height: 1.5;
+}
+
+/* footer a {
+	color: var(--clr-primary);
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+footer a:hover {
+	color: #fff;
+} */

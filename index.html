@@ -4,294 +4,233 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Priyanka PRA</title>
-		<script
-			src="https://code.jquery.com/jquery-3.7.1.min.js"
-			integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-			crossorigin="anonymous"></script>
-		<link rel="stylesheet" href="/getStyles/getStyles.css" />
-		<script src="/getStyles/getStyles.js"></script>
-		<script src="/js/aos.js"></script>
-		<script src="/js/index.js"></script>
-		<meta name="getStyles" sm="" md="" lg="" xl="" xxl="" />
+		<script src="/js/jq.js"></script>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+		<link
+			href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+			rel="stylesheet" />
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<meta
+			name="description"
+			content="
+			Priyanka PRA is a tailored advisory service focused on nurturing genuine bonds and fostering lifelong fulfillment in personal relationships. Our expert guidance helps individuals navigate various aspects of their personal lives to achieve greater happiness and satisfaction." />
 	</head>
 	<body>
-		<header class="flex bg-light h-80 p-xl sticky t-0 z-10">
-			<a href="/" class="fs-xxl flex aic jcc font-code gap-sm"
-				>Priyanka<span class="txt-blue">PRA</span></a
-			>
+		<header>
+			<div id="title"><a href="/">Priyanka ● PRA</a></div>
+			<div id="headerBtn">
+				<a href="#contact">
+					<span class="material-symbols-sharp"> call </span>
+				</a>
+				<a id="menuToggle">
+					<span class="material-symbols-sharp"> menu </span>
+				</a>
+			</div>
 		</header>
-		<main class="p-xl container">
-			<p class="fs-xl txt-blue fw-300">
-				Nurturing Genuine Bonds for Lifelong Fulfillment
-			</p>
-			<!-- <lottie-player
-				src="https://lottie.host/e9991645-ec0a-4360-b845-02d8acb0dd29/HcmO2JJQ7k.json"
-				background="transparent"
-				speed="2"
-				loop
-				autoplay
-				direction="1"
-				mode="normal"
-				class="w-full flex jcc aic aspect-square"></lottie-player> -->
-			<h1 class="fs-xxl fw-600 pb-md">
-				Empower Your Connections with Personal Relationship Advisory
-			</h1>
-			<p class="fs-lg pb-xxl fw-300">
-				Let's Cultivate Your Personal Journey Together
-			</p>
-			<a
-				href="#"
-				class="px-xl py-sm fs-lg bg-blue txt-white hover-bg-dark flex aic jcc"
-				>Join Now<i class="bx bx-right-arrow-alt fs-xxl"></i
-			></a>
-		</main>
-		<section id="services" class="bg-blue-300 p-xl container">
-			<h2 class="fs-xxl fw-600 pb-md">Services</h2>
-			<p class="fs-lg pb-xxl fw-300">
-				Unlock the Power of Personal Connections with Our Range of Services
-			</p>
-			<div class="flex fdc gap-lg lg-fdr lg-jcc">
-				<div class="flex-1 bg-white p-lg br-sm">
-					<h3 class="fs-lg fw-600 pb-md">Personal Relationship Advisory</h3>
-					<p class="fs-md fw-300 pb-lg">
-						Dive into Personalized Relationship Guidance Tailored Just for You by Our Experienced Advisors
-					</p>
-					<a href="#" class="p-sm fs-lg bg-blue txt-white hover-bg-dark flex aic jcc">
-						Learn More <i class="bx bx-right-arrow-alt fs-xxl"></i>
-					</a>
-				</div>
-				<div class="flex-1 bg-white p-lg br-sm">
-					<h3 class="fs-lg fw-600 pb-md">Couples Therapy</h3>
-					<p class="fs-md fw-300 pb-lg">
-						Overcome Relationship Hurdles and Strengthen Your Bond with Our Expert Couples Counseling
-					</p>
-					<a href="#" class="p-sm fs-lg bg-blue txt-white hover-bg-dark flex aic jcc">
-						Learn More <i class="bx bx-right-arrow-alt fs-xxl"></i>
-					</a>
-				</div>
-				<div class="flex-1 bg-white p-lg br-sm">
-					<h3 class="fs-lg fw-600 pb-md">Family Counseling</h3>
-					<p class="fs-md fw-300 pb-lg">
-						Foster Deeper Connections and Resolve Conflicts within Your Family Dynamic with Our Supportive Counseling Sessions
-					</p>
-					<a href="#" class="p-sm fs-lg bg-blue txt-white hover-bg-dark flex aic jcc">
-						Learn More <i class="bx bx-right-arrow-alt fs-xxl"></i>
-					</a>
-				</div>
-				<div class="flex-1 bg-white p-lg br-sm">
-					<h3 class="fs-lg fw-600 pb-md">Individual Counseling</h3>
-					<p class="fs-md fw-300 pb-lg">
-						Receive Personalized Support and Guidance to Address Individual Challenges and Enhance Personal Growth
-					</p>
-					<a href="#" class="p-sm fs-lg bg-blue txt-white hover-bg-dark flex aic jcc">
-						Learn More <i class="bx bx-right-arrow-alt fs-xxl"></i>
-					</a>
-				</div>
-				<!-- <div class="flex-1 bg-white p-lg br-sm">
-					<h3 class="fs-lg fw-600 pb-md">Pre-marital Counseling</h3>
-					<p class="fs-md fw-300 pb-lg">
-						Prepare for a Strong and Healthy Marriage with Our Pre-marital Counseling Services, Focused on Communication and Conflict Resolution
-					</p>
-					<a href="#" class="p-sm fs-lg bg-blue txt-white hover-bg-dark flex aic jcc">
-						Learn More <i class="bx bx-right-arrow-alt fs-xxl"></i>
-					</a>
-				</div> -->
-				<div class="flex-1 bg-white p-lg br-sm">
-					<h3 class="fs-lg fw-600 pb-md">Parenting Support</h3>
-					<p class="fs-md fw-300 pb-lg">
-						Gain Valuable Guidance and Resources to Navigate the Challenges of Parenting and Foster a Positive Parent-Child Relationship
-					</p>
-					<a href="#" class="p-sm fs-lg bg-blue txt-white hover-bg-dark flex aic jcc">
-						Learn More <i class="bx bx-right-arrow-alt fs-xxl"></i>
-					</a>
-				</div>
-				<!-- <div class="flex-1 bg-white p-lg br-sm">
-					<h3 class="fs-lg fw-600 pb-md">Divorce Counseling</h3>
-					<p class="fs-md fw-300 pb-lg">
-						Receive Compassionate Support and Guidance to Navigate the Emotional Challenges of Divorce and Transition to a New Chapter in Your Life
-					</p>
-					<a href="#" class="p-sm fs-lg bg-blue txt-white hover-bg-dark flex aic jcc">
-						Learn More <i class="bx bx-right-arrow-alt fs-xxl"></i>
-					</a>
-				</div> -->
-				<!-- <div class="flex-1 bg-white p-lg br-sm">
-					<h3 class="fs-lg fw-600 pb-md">Self-Esteem Workshops</h3>
-					<p class="fs-md fw-300 pb-lg">
-						Participate in Engaging Workshops Designed to Boost Self-Esteem, Confidence, and Assertiveness for Improved Relationships and Personal Well-being
-					</p>
-					<a href="#" class="p-sm fs-lg bg-blue txt-white hover-bg-dark flex aic jcc">
-						Learn More <i class="bx bx-right-arrow-alt fs-xxl"></i>
-					</a>
-				</div> -->
-				<!-- <div class="flex-1 bg-white p-lg br-sm">
-					<h3 class="fs-lg fw-600 pb-md">Communication Skills Training</h3>
-					<p class="fs-md fw-300 pb-lg">
-						Enhance Your Communication Skills, Active Listening, and Conflict Resolution Techniques through our Practical Training Programs for Stronger Relationships and Personal Growth
-					</p>
-					<a href="#" class="p-sm fs-lg bg-blue txt-white hover-bg-dark flex aic jcc">
-						Learn More <i class="bx bx-right-arrow-alt fs-xxl"></i>
-					</a>
-				</div> -->
-				<div class="flex-1 bg-white p-lg br-sm">
-					<h3 class="fs-lg fw-600 pb-md">Life Coaching</h3>
-					<p class="fs-md fw-300 pb-lg">
-						Partner with a Certified Life Coach to Set and Achieve Personal and Relationship Goals, Maximize Your Potential, and Create a Fulfilling Life
-					</p>
-					<a href="#" class="p-sm fs-lg bg-blue txt-white hover-bg-dark flex aic jcc">
-						Learn More <i class="bx bx-right-arrow-alt fs-xxl"></i>
-					</a>
+		<nav>
+			<div id="navLinks">
+				<a href="">Home</a>
+				<a href="#services">Services</a>
+				<a href="#about">About</a>
+				<a href="#faq">FAQ</a>
+				<a href="#contact">Contact</a>
+			</div>
+			<div id="bar"></div>
+			<div id="connect">
+				<div id="social">
+					<a href="">FACEBOOK</a>
+					<a href="">TWITTER</a>
+					<a href="">INSTAGRAM</a>
+					<a href="">LINKEDIN</a>
 				</div>
 			</div>
-		</section>		
-		<section id="about" class="p-xl container">
-			<h2 class="fs-xxl fw-600 pb-md">About</h2>
-			<p class="fs-lg pb-xxl fw-300">Learn More About Priyanka PRA</p>
-			<div class="flex fdc gap-lg lg-fdr lg-jcc">
-				<div class="bg-blue-300 p-lg br-sm">
-					<h3 class="fs-lg fw-600 pb-md">Our Mission</h3>
-					<p class="fs-md fw-300 pb-lg">
-						At Priyanka PRA, our mission is to empower individuals to build stronger, more fulfilling relationships through personalized guidance and support tailored to their unique needs and goals.
-					</p>
-					<a href="#" class="p-sm fs-lg bg-blue txt-white hover-bg-dark flex aic jcc">
-						Learn More <i class="bx bx-right-arrow-alt fs-xxl"></i>
-					</a>
-				</div>
-				<div class="bg-blue-300 p-lg br-sm">
-					<h3 class="fs-lg fw-600 pb-md">Our Vision</h3>
-					<p class="fs-md fw-300 pb-lg">
-						Our vision at Priyanka PRA is to cultivate a world where meaningful connections thrive, fostering empathy, understanding, and mutual respect in all aspects of life.
-					</p>
-					<a href="#" class="p-sm fs-lg bg-blue txt-white hover-bg-dark flex aic jcc">
-						Learn More <i class="bx bx-right-arrow-alt fs-xxl"></i>
-					</a>
-				</div>
+		</nav>
+		<div id="hero">
+			<div id="bg" class="container">
+				<h1 data-aos="fade-right">
+					'It doesn't
+					<span class="underLine">matter where</span> you're going,<br />
+					it's who you <span class="underLine">have</span> beside
+					you.'
+				</h1>
+				<p data-aos="fade-right" data-aos-delay="150">
+					Empowering Working Women & Entrepreneurs in Personal
+					Relationships
+				</p>
+				<a data-aos="fade-right" data-aos-delay="300" href="/#contact" id="contactBtn">Join Now</a>
 			</div>
-		</section>
-		
-		<section id="faq" class="bg-blue-300 p-xl container">
-			<h2 class="fs-xxl fw-600 pb-md">FAQ</h2>
-			<p class="fs-lg pb-xxl fw-300">Frequently Asked Questions</p>
-			<details class="bg-white p-lg br-sm">
-				<summary class="fs-lg fw-600 pb-md">
-					What is Personal Relationship Advisory (PRA)?
-				</summary>
-				<p class="fs-md fw-300 pb-lg">
+		</div>
+		<div data-aos="fade-right" id="about">
+			<h2>Get to <span class="underLine">know</span> us!</h2>
+			<div  data-aos="fade-right">
+				<h3>Our Mission</h3>
+				<p>
+					At Priyanka PRA, our mission is to empower individuals to
+					build stronger, more fulfilling relationships through
+					personalized guidance and support tailored to their unique
+					needs and goals.
+				</p>
+			</div>
+			<div  data-aos="fade-right">
+				<h3>Our Vision</h3>
+				<p>
+					Our vision at Priyanka PRA is to cultivate a world where
+					meaningful connections thrive, fostering empathy,
+					understanding, and mutual respect in all aspects of life.
+				</p>
+			</div>
+			<a data-aos="fade-right" href="#contact">Learn More</a>
+			<img data-aos="fade-right" src="/img/wordCloud.webp" alt="wordArt" id="wordArt" />
+			<h2 data-aos="fade-right" id="services">What <span class="underLine">we do</span> ;)</h2>
+			<div data-aos="fade-right">
+				<h3>Personal Relationship Advisory</h3>
+				<p>
+					Dive into Personalized Relationship Guidance Tailored Just
+					for You by Our Experienced Advisors.
+				</p>
+			</div>
+			<div data-aos="fade-right">
+				<h3>Couples Therapy</h3>
+				<p>
+					Overcome Relationship Hurdles and Strengthen Your Bond with
+					Our Expert Couples Counseling.
+				</p>
+			</div>
+			<div data-aos="fade-right">
+				<h3>Family Counseling</h3>
+				<p>
+					Foster Deeper Connections and Resolve Conflicts within Your
+					Family Dynamic with Our Supportive Counseling Sessions.
+				</p>
+			</div>
+			<div data-aos="fade-right">
+				<h3>Individual Counseling</h3>
+				<p>
+					Receive Personalized Support and Guidance to Address
+					Individual Challenges and Enhance Personal Growth.
+				</p>
+			</div>
+			<div data-aos="fade-right">
+				<h3>Parenting Support</h3>
+				<p>
+					Gain Valuable Guidance and Resources to Navigate the
+					Challenges of Parenting and Foster a Positive Parent-Child
+					Relationship.
+				</p>
+			</div>
+			<div data-aos="fade-right">
+				<h3>Life Coaching</h3>
+				<p>
+					Partner with a Certified Life Coach to Set and Achieve
+					Personal and Relationship Goals, Maximize Your Potential,
+					and Create a Fulfilling Life.
+				</p>
+			</div>
+			<a data-aos="fade-right" href="#contact">Contact Us!</a>
+		</div>
+
+		<div id="faq" data-aos="fade-right">
+			<h2 data-aos="fade-right">FAQ</h2>
+			<p data-aos="fade-right">Frequently Asked Questions</p>
+			<details data-aos="fade-right" open>
+				<summary>What is Personal Relationship Advisory (PRA)?</summary>
+				<p>
 					Personal Relationship Advisory (PRA) is a tailored advisory
 					service focused on nurturing genuine bonds and fostering
 					lifelong fulfillment in personal relationships. Our expert
 					guidance helps individuals navigate various aspects of their
-					personal lives to achieve greater happiness and satisfaction.
+					personal lives to achieve greater happiness and
+					satisfaction.
 				</p>
 			</details>
-			<details class="bg-white p-lg br-sm">
-				<summary class="fs-lg fw-600 pb-md">
+			<details data-aos="fade-right">
+				<summary>
 					What types of services does Priyanka PRA offer?
 				</summary>
-				<p class="fs-md fw-300 pb-lg">
+				<p>
 					Priyanka PRA offers a range of services to help individuals
-					build stronger relationships, including Personal Relationship
-					Advisory, Couples Therapy, and Family Counseling. Each
-					service is personalized to address the unique needs and goals
-					of our clients.
+					build stronger relationships, including Personal
+					Relationship Advisory, Couples Therapy, and Family
+					Counseling. Each service is personalized to address the
+					unique needs and goals of our clients.
 				</p>
 			</details>
-			<details class="bg-white p-lg br-sm">
-				<summary class="fs-lg fw-600 pb-md">
-					How does the advisory process work?
-				</summary>
-				<p class="fs-md fw-300 pb-lg">
+			<details data-aos="fade-right">
+				<summary>How does the advisory process work?</summary>
+				<p>
 					The advisory process begins with an initial consultation to
-					understand your specific challenges and goals. From there, we
-					develop a customized plan tailored to your needs. Throughout
-					the process, we provide ongoing support, guidance, and
-					resources to help you achieve your desired outcomes.
+					understand your specific challenges and goals. From there,
+					we develop a customized plan tailored to your needs.
+					Throughout the process, we provide ongoing support,
+					guidance, and resources to help you achieve your desired
+					outcomes.
 				</p>
 			</details>
-			<details class="bg-white p-lg br-sm">
-				<summary class="fs-lg fw-600 pb-md">
-					Is Priyanka PRA confidential?
-				</summary>
-				<p class="fs-md fw-300 pb-lg">
-					Yes, confidentiality is of utmost importance to us. We adhere
-					to strict privacy policies to ensure that all client
+			<details data-aos="fade-right">
+				<summary>Is Priyanka PRA confidential?</summary>
+				<p>
+					Yes, confidentiality is of utmost importance to us. We
+					adhere to strict privacy policies to ensure that all client
 					information remains confidential and secure.
 				</p>
 			</details>
-			<details class="bg-white p-lg br-sm">
-				<summary class="fs-lg fw-600 pb-md">
-					How long does each advisory session last?
-				</summary>
-				<p class="fs-md fw-300 pb-lg">
+			<details data-aos="fade-right">
+				<summary>How long does each advisory session last?</summary>
+				<p>
 					The duration of each advisory session may vary depending on
 					the specific needs and goals of the client. Typically,
 					sessions range from 60 to 90 minutes, but we can adjust the
 					length as needed to ensure thorough and effective support.
 				</p>
 			</details>
-			<details class="bg-white p-lg br-sm">
-				<summary class="fs-lg fw-600 pb-md">
+			<details data-aos="fade-right">
+				<summary>
 					What if I'm not satisfied with the advisory services?
 				</summary>
-				<p class="fs-md fw-300 pb-lg">
+				<p>
 					Your satisfaction is our top priority. If you're not
 					completely satisfied with our services, please let us know,
 					and we will do our best to address your concerns and make
 					things right.
 				</p>
 			</details>
-		</section>
-		<section id="contact" class="bg-blue-300 p-xl container">
-			<h2 class="fs-xxl fw-600 pb-md">Contact</h2>
-			<p class="fs-lg pb-xxl fw-300">Get in Touch with Us</p>
-			<div class="flex fdc gap-lg">
-				<div class="bg-white p-lg br-sm">
-					<h3 class="fs-lg fw-600 pb-md">Contact Information</h3>
-					<p class="fs-md fw-300 pb-lg">
+		</div>
+		<div data-aos="fade-right" id="contact">
+			<h2>Contact</h2>
+			<p>Get in Touch with Us</p>
+			<div>
+				<div>
+					<h3>Contact Information</h3>
+					<p>
 						Email:
-						<a
-							class="txt-blue fw-500"
-							href="mailto:info.priyankapra@gmail.com"
+						<a href="mailto:info.priyankapra@gmail.com"
 							>info.priyankapra@gmail.com</a
 						>
 					</p>
-					<p class="fs-md fw-300 pb-lg">
+					<p>
 						Phone:
-						<a class="txt-blue fw-500" href="tel:+919910839142"
-							>+919910839142</a
-						>
+						<a href="tel:+919910839142">+919910839142</a>
 					</p>
 				</div>
-				<div class="bg-white p-lg br-sm">
-					<h3 class="fs-lg fw-600 pb-md">Contact Form</h3>
-					<form action="#" method="POST" class="flex fdc gap-md">
-						<input
-							type="text"
-							name="name"
-							placeholder="Name"
-							class="p-sm br-sm" />
-						<input
-							type="email"
-							name="email"
-							placeholder="Email"
-							class="p-sm br-sm" />
+				<div>
+					<h3>Contact Form</h3>
+					<form action="#" method="POST">
+						<input type="text" name="name" placeholder="Name" />
+						<input type="email" name="email" placeholder="Email" />
 						<textarea
 							name="message"
-							placeholder="Message"
-							class="p-sm br-sm"></textarea>
-						<button
-							type="submit"
-							class="p-sm fs-lg bg-blue txt-white hover-bg-dark flex aic jcc">
-							Submit<i class="bx bx-right-arrow-alt fs-xxl"></i>
-						</button>
+							placeholder="Message"></textarea>
+						<button type="submit">Submit</button>
 					</form>
 				</div>
 			</div>
-		</section>
-		<footer class="bg-light p-xl h-64">
-			<p class="fs-md txt-blue fw-300 tac">
-				© 2024 Priyanka PRA. All Rights Reserved.
-			</p>
+		</div>
+		<footer>
+			<p>© 2024 Priyanka PRA. All Rights Reserved.</p>
 		</footer>
-		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+		<script src="script.js"></script>
 	</body>
 </html>
