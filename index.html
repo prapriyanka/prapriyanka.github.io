@@ -215,8 +215,8 @@
 				</p>
 			</details>
 		</div>
-		<div id="contact" data-aos="fade-right" class="visme_d" data-title="Contact Us Contact Form" data-url="pvm6z6jv-contact-us-contact-form" data-domain="forms" data-full-page="false" data-min-height="500px" data-form-id="60637"></div><script src="https://static-bundles.visme.co/forms/vismeforms-embed.js"></script>
-		<!-- <div data-aos="fade-right" id="contact">
+		<!-- <div id="contact" data-aos="fade-right" class="visme_d" data-title="Contact Us Contact Form" data-url="pvm6z6jv-contact-us-contact-form" data-domain="forms" data-full-page="false" data-min-height="500px" data-form-id="60637"></div><script src="https://static-bundles.visme.co/forms/vismeforms-embed.js"></script> -->
+		<div data-aos="fade-right" id="contact">
 			<h2>Contact</h2>
 			<p>Get in Touch with Us</p>
 			<div>
@@ -224,8 +224,8 @@
 					<h3>Contact Information</h3>
 					<p>
 						Email:
-						<a href="mailto:info.priyankapra@gmail.com"
-							>info.priyankapra@gmail.com</a
+						<a href="mailto:contact@priyankapra.com"
+							>contact@priyankapra.com</a
 						>
 					</p>
 					<p>
@@ -235,17 +235,47 @@
 				</div>
 				<div>
 					<h3>Contact Form</h3>
-					<form action="#" method="POST">
-						<input type="text" name="name" placeholder="Name" />
-						<input type="email" name="email" placeholder="Email" />
+					<form id="contactForm">
+						<input
+							type="text"
+							id="name"
+							name="name"
+							placeholder="Name"
+							required />
+						<input
+							type="email"
+							id="email"
+							name="email"
+							placeholder="Email"
+							required />
 						<textarea
+							id="message"
 							name="message"
-							placeholder="Message"></textarea>
+							placeholder="Message"
+							required></textarea>
 						<button type="submit">Submit</button>
 					</form>
+					<script>
+						document
+							.getElementById("contactForm")
+							.addEventListener("submit", function (event) {
+								event.preventDefault(); // Prevent the default form submission
+								const name =
+									document.getElementById("name").value;
+								const email =
+									document.getElementById("email").value;
+								const message =
+									document.getElementById("message").value;
+
+								const mailtoLink = `mailto:contact@priyankapra.com?subject=Contact from ${name}&body=Name: ${name}%0AEmail: ${email}%0AMessage: ${message}`;
+
+								// window.location.href = mailtoLink;
+								window.open(mailtoLink, "_blank");
+							});
+					</script>
 				</div>
 			</div>
-		</div> -->
+		</div>
 		<footer>
 			<p>© 2024 Priyanka PRA. All Rights Reserved.</p>
 		</footer>
